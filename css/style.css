@@ -1,4 +1,13 @@
 @import url(reset.css);
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid white;
+    padding: 20px;
+}
+
 body {
     line-height: 1;
     background-color: black;
@@ -25,18 +34,6 @@ li:before {
     font-size: 20px;            
     margin-right: 10px;          
     flex-shrink: 0;               
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-.container {
-    width: 1200px;
-    margin: 0 auto;
-    border: 1px solid white;
-    padding: 20px;
 }
 
 .row {
